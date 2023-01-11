@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalAssemblyReflector", "ExternalAssemblyReflector\ExternalAssemblyReflector.csproj", "{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LateBindingApp", "LateBindingApp\LateBindingApp.csproj", "{7413CC6E-8578-4228-A823-50896DEA85E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributedCarLibrary", "AttributedCarLibrary\AttributedCarLibrary.csproj", "{6D2201A3-2889-4CCD-9202-7D0E002DBE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttributeEarlyBinding", "AttributeEarlyBinding", "{94D3B65E-6260-422D-88A5-F87A2E40FBB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleDescriptionAttributeReader", "VehicleDescriptionAttributeReader\VehicleDescriptionAttributeReader.csproj", "{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttributeLateBinding", "AttributeLateBinding", "{836B539F-BA73-41EB-A4F2-D019C5AAC0F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehicleDescriptionAttributeLateBinding", "VehicleDescriptionAttributeLateBinding\VehicleDescriptionAttributeLateBinding.csproj", "{83239208-CE24-4B93-B825-C6281CBB7C67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{3FF10826-9263-4F23-9379-AF9A2C3EF6ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicallyLoadingAssemblies", "DynamicallyLoadingAssemblies", "{4B7A3E98-29CC-4547-85AD-72E9F702FB66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Reflections", "Reflections", "{D4DA7CEC-B86D-4CC4-B1EC-0D0091AD128B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTypeViewer", "MyTypeViewer\MyTypeViewer.csproj", "{2B750F63-8FCA-41BE-80BD-59E302F5C9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EarlyAndLateBinding", "EarlyAndLateBinding", "{3EEFCA63-AEA7-444D-9B6D-41363AD829CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarlyBinding", "EarlyBinding\EarlyBinding.csproj", "{535B952C-2657-41E2-A883-0074A18C80C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7413CC6E-8578-4228-A823-50896DEA85E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7413CC6E-8578-4228-A823-50896DEA85E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7413CC6E-8578-4228-A823-50896DEA85E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7413CC6E-8578-4228-A823-50896DEA85E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2201A3-2889-4CCD-9202-7D0E002DBE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2201A3-2889-4CCD-9202-7D0E002DBE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2201A3-2889-4CCD-9202-7D0E002DBE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2201A3-2889-4CCD-9202-7D0E002DBE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83239208-CE24-4B93-B825-C6281CBB7C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83239208-CE24-4B93-B825-C6281CBB7C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83239208-CE24-4B93-B825-C6281CBB7C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83239208-CE24-4B93-B825-C6281CBB7C67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF10826-9263-4F23-9379-AF9A2C3EF6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF10826-9263-4F23-9379-AF9A2C3EF6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF10826-9263-4F23-9379-AF9A2C3EF6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF10826-9263-4F23-9379-AF9A2C3EF6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B750F63-8FCA-41BE-80BD-59E302F5C9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B750F63-8FCA-41BE-80BD-59E302F5C9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B750F63-8FCA-41BE-80BD-59E302F5C9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B750F63-8FCA-41BE-80BD-59E302F5C9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535B952C-2657-41E2-A883-0074A18C80C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535B952C-2657-41E2-A883-0074A18C80C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535B952C-2657-41E2-A883-0074A18C80C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535B952C-2657-41E2-A883-0074A18C80C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6EE64843-8DC9-485C-A2F0-5F0422ABC8DE} = {4B7A3E98-29CC-4547-85AD-72E9F702FB66}
+		{7413CC6E-8578-4228-A823-50896DEA85E7} = {3EEFCA63-AEA7-444D-9B6D-41363AD829CB}
+		{6DFDB4ED-30F3-4EBD-A7E7-4485466B0CF1} = {94D3B65E-6260-422D-88A5-F87A2E40FBB9}
+		{83239208-CE24-4B93-B825-C6281CBB7C67} = {836B539F-BA73-41EB-A4F2-D019C5AAC0F5}
+		{3FF10826-9263-4F23-9379-AF9A2C3EF6ED} = {D4DA7CEC-B86D-4CC4-B1EC-0D0091AD128B}
+		{2B750F63-8FCA-41BE-80BD-59E302F5C9E1} = {D4DA7CEC-B86D-4CC4-B1EC-0D0091AD128B}
+		{535B952C-2657-41E2-A883-0074A18C80C3} = {3EEFCA63-AEA7-444D-9B6D-41363AD829CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {354CEC01-0321-4D57-A316-6260BB02ACCB}
+	EndGlobalSection
+EndGlobal
